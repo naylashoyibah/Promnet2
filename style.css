@@ -1,0 +1,656 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #292338;
+}
+
+header {
+    padding: 15px 50px;
+}
+
+
+.logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 32px;
+}
+
+.link-navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.link-navbar a {
+    text-decoration: none;
+    color: #292338;
+    transition: 0.3s;
+}
+
+.link-navbar a:hover {
+    color: #f66eb2;
+}
+
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background-color: #d33a82;
+}
+
+.logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 32px;
+}
+
+.link-navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.link-navbar a {
+    text-decoration: none;
+    color: #292338;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.link-navbar a:hover {
+    color:  #B85C7A;
+}
+
+
+/* BAGIAN PROFIL */
+.hero {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    background-color: #efc8dd;
+    border-radius: 25px;
+}
+
+
+.hero-text {
+    max-width: 550px;
+}
+
+#judul-profil {
+    font-size: 36px;
+    color: #292338;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* FOTO */
+.foto-profil {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border: 3px solid #292338;
+    border-radius: 20px;
+    margin: 0;
+    animation: muncul 1s ease-out;
+}
+
+
+/* SKILL */
+.skills {
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 32px;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    padding: 20px 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #f7c6d0;
+
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* ANIMASI */
+@keyframes muncul {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+/* Profil */
+.profil {
+    background-color: #efc8dd;
+    width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #ded5f6;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.profil h2 {
+    font-size: 32px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.profil p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.profil:hover {
+    transform: translateY(-8px);
+}
+
+/* Data Diri */
+
+.data-diri {
+    width: 60%;
+    margin: 40px auto;
+    padding: 35px 45px 60px;
+    background-color: #e9c1d9;
+    border: 3px solid #d9d5ff;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+#judul-data {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+}
+
+/* Tabel Data Diri */
+
+.data-diri table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-diri td {
+    border: 1px solid #555;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.data-diri td:first-child {
+    width: 30%;
+}
+
+.data-diri tr:first-child td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.data-diri:hover {
+    transform: translateY(-8px);
+}
+
+/* Hobi */
+.Hobi {
+    width: 60%;
+    margin: 40px auto;
+    padding: 35px 45px 45px;
+    background-color: #e9c1d9;
+    border: 3px solid #d9d5ff;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+#judul-hobi {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+}
+
+.Hobi ol {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.Hobi li {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.hobi:hover {
+    transform: translateY(-8px);
+}
+
+/* =========================
+   RIWAYAT PENDIDIKAN
+========================= */
+
+.Riwayat-Pendidikan {
+    width: 60%;
+    margin: 40px auto;
+    padding: 35px 45px 45px;
+    background-color: #e9c1d9;
+    border: 3px solid #d9d5ff;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+#judul-Riwayat {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+}
+
+.Riwayat-Pendidikan ul {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.Riwayat-Pendidikan li {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.Riwayat-pendidikan:hover {
+    transform: translateY(-8px);
+}
+
+footer {
+    background-color: #d63384;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer p {
+    color: white;
+    margin: 10px 0;
+}
+
+/* project */
+.project-container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.project-container h1 {
+    font-size: 40px;
+    color: #292338;
+    margin-bottom: 10px;
+}
+
+.project-container > p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 35px;
+}
+
+/* Kumpulan kartu project */
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Kartu project */
+.project-card {
+    width: 300px;
+    background-color: #efc8dd;
+    border: 3px solid #d9d5ff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* Efek saat mouse diarahkan */
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Gambar project */
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-bottom: 15px;
+}
+
+/* Judul project */
+.project-card h2 {
+    font-size: 23px;
+    color: #292338;
+    margin: 5px 0 10px;
+}
+
+/* Deskripsi project */
+.project-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Tombol / link project */
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #d63384;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+/* Hover tombol */
+.project-card a:hover {
+    background-color: #b85c7a;
+    transform: scale(1.05);
+}
+
+.project-page .project-info {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #efc8dd;
+    border: 3px solid #d9d5ff;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.project-page .project-info h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #292338;
+    margin-top: 0;
+}
+
+/* Teknologi */
+.project-page .project-info ul {
+    width: 250px;
+    margin: auto;
+}
+
+.project-page .project-info li {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Tabel */
+.project-page .project-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.project-page .project-info th,
+.project-page .project-info td {
+    border: 1px solid #555;
+    padding: 12px;
+    text-align: center;
+}
+
+.project-page .project-info tr:first-child td {
+    background-color: #d63384;
+    color: white;
+    font-size: 18px;
+}
+
+.project-page .project-info th {
+    background-color: #f7d6e7;
+    color: #292338;
+}
+
+
+/* contact me */
+  
+
+.contact-page {
+    background-color: white;
+}
+
+.contact-page .link-navbar a {
+    color: #292338;
+}
+
+/* Judul dan isi halaman */
+.contact-page > h2 {
+    width: 85%;
+    max-width: 900px;
+    margin: 35px auto 10px;
+    color: #292338;
+    font-size: 32px;
+}
+
+.contact-page > p {
+    width: 85%;
+    max-width: 900px;
+    margin: 10px auto;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Form Pesan */
+.contact-page table {
+    width: 85% !important;
+    max-width: 850px;
+    margin: 30px auto !important;
+    border-collapse: collapse;
+    background-color: #efc8dd;
+    border: 3px solid #d9d5ff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Judul form */
+.contact-page table tr:first-child td {
+    background-color: #d63384;
+    color: white;
+    font-size: 22px;
+    text-align: center !important;
+    padding: 15px;
+}
+
+/* Sel tabel */
+.contact-page table td {
+    border: 1px solid #aaa;
+    padding: 14px !important;
+    font-size: 16px;
+}
+
+/* Kolom label */
+.contact-page table td.label {
+    width: 30% !important;
+    text-align: right;
+    font-weight: bold;
+    color: #292338;
+}
+
+/* Input */
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page input[type="tel"],
+.contact-page input[type="date"],
+.contact-page select {
+    width: 80% !important;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Radio button */
+.contact-page input[type="radio"] {
+    width: auto !important;
+}
+
+/* Textarea */
+.contact-page textarea {
+    width: 80% !important;
+    min-height: 120px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+
+/* Tombol */
+.contact-page input[type="submit"],
+.contact-page button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 11px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-page input[type="submit"]:hover,
+.contact-page button:hover {
+    background-color: #b85c7a;
+    transform: scale(1.05);
+}
+
+/* Link email */
+.contact-page a {
+    color: #d63384;
+}
+
+.contact-page a:hover {
+    color: #b85c7a;
+}
+
+/* Bagian bawah */
+.contact-page footer {
+    background-color: #d63384;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-page footer p,
+.contact-page footer a {
+    color: white;
+}
+
+/*KATALOG */
+
+.katalog-container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.katalog-container h1 {
+    font-size: 40px;
+    color: #292338;
+    margin-bottom: 10px;
+}
+
+.katalog-container > p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 35px;
+}
+
+/* Kumpulan produk */
+.katalog-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Kartu produk */
+.katalog-card {
+    width: 280px;
+    background-color: #efc8dd;
+    border: 3px solid #d9d5ff;
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Efek hover */
+.katalog-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Gambar produk */
+.katalog-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* Nama produk */
+.katalog-card h3 {
+    font-size: 23px;
+    color: #292338;
+    margin: 15px 0 5px;
+}
+
+/* Footer katalog */
+.katalog-container + footer {
+    background-color: #d63384;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.katalog-container + footer p {
+    color: white;
+}

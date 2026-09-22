@@ -2,98 +2,174 @@
 <html lang="id">
   <head>
     <title>My Project</title>
-  </head>
-  <body>
-    <!-- Isi halaman -->
-    <h1>My Project</h1>
+    <link rel="stylesheet" href="style.css">
+  <body class="project-page">
+    <header>
+         <div class="logo">My Project ♡</div>
+
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">about</a> |
-      <a href="project.html">Project</a> |
-      <a href="contact.html">Contact</a>|
-      <a href="katalog.html">katalog</a>
-    </nav>
-    <hr />
-    <h2>Daftar Project</h2>
-    <p>
-      Berikut adalah beberapa project yang pernah atau sedang saya kerjakan.
-    </p>
-    <h3>Project 1: Website Biodata</h3>
-    Website sederhana untuk menampilkan biodata pribadi HTML.
-    <h3>Project 2: Game Mindventure (Rise Of Reason)</h3>
-    <img src="image/game.png" alt="game" width="240" />
-    <p>
-    Game pembelajaran interaktif berbasis edukasi.
-    </p>
-         <p>Repository: <a href="https://github.com/ceceaj/Project-UAS-2B.git">Lihat di GitHub</a></p>
-    <h3>Project 3: Website Matematika Diskrit</h3>
-    <img src="image/matdis.png" alt="matdis" width="240" />
-    <p>
-    Website sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript yang menampilkan proses Binary Tree Inorder Traversal secara otomatis.
-    </p>
-     <p>Repository: <a href="https://github.com/naylashoyibah/Pohon-Biner-Inorder.git">Lihat di GitHub</a></p>
-    <h3>Project 4: Website Saung Hibar</h3>
-    <p>
-    <img src="image/web.png" alt="web" width="240" />
-    </p>
-    <p>Website pariwisata yang dikembangkan secara berkelompok untuk memperkenalkan Saung Hibar sebagai salah satu destinasi wisata, 
-      <br>sekaligus memudahkan pengunjung dalam memperoleh informasi dan melakukan proses booking secara online.</p>
-       <p> <a href="https://www.figma.com/proto/IfEY9ydbCMkF7gMdr9Qh6p/Untitled?node-id=484-139&t=nk17Ggc3IBAySb5N-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A778&show-proto-sidebar=1">Lihat di Figma</a></p>
   
-    </h3>
-    <h2>Teknologi yang Digunakan</h2>
-    <ul>
-      <li>HTML</li>
-      <li>Godot</li>
-      <li>Figma</li>
-      <li>Canva</li>
-      <li>Github</li>
-    </ul>
+      <div class="link-navbar">
+      <a href="index.html">Home</a> 
+      <a href="about.html">about</a> 
+      <a href="project.html">Project</a> 
+      <a href="contact.html">Contact</a>
+      <a href="katalog.html">Katalog</a>
+      </div>
+    </nav>
+  </header>
+    
+    <hr />
+
+<div class="project-container">
+
+    <h2>Daftar Project</h2>
+
     <p>
-    <h2>Ringkasan Project</h2>
+        Berikut adalah beberapa project yang pernah atau sedang saya kerjakan.
     </p>
-    <table border="1" cellspacing="3" cellpadding="10" width="50%">
-      <tr>
-        <td align="center" colspan="4">
-          <strong>Ringkasan Portofolio Project</strong>
-        </td>
-      </tr>
-      <tr>
-        <th rowspan="2">No.</th>
-        <th rowspan="2">Nama Project</th>
-        <th colspan="2">Detail Project</th>
-      </tr>
-      <tr>
-        <th>Teknologi</th>
-        <th>Status</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>1</td>
-        <td>Website Biodata</td>
-        <td>HTML</td>
-        <td>Dalam Pengembangan</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Game Mindventure (Rise of Reason)</td>
-        <td>Godot & Canva</td>
-        <td rowspan="3">Selesai</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Website Matematika Diskrit</td>
-        <td>HTML & Github</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Website Saung Hibar</td>
-        <td>Figma & Canva</td>
-      </tr>
-      </tbody>
-    </table>
-    <hr>
-    <a href="contact.html">Tertarik berdiskusi?Hubungi saya</a>
-   <p>©2026 Nayla Shoyibah.</p>
-  </body>
+
+    <div class="project-list">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+            <h3>Project 1: Website Biodata</h3>
+
+            <p>
+                Website sederhana untuk menampilkan biodata pribadi menggunakan HTML.
+            </p>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <h3>Project 2: Game Mindventure (Rise Of Reason)</h3>
+
+            <img src="image/game.png" alt="Game Mindventure">
+
+            <p>
+                Game pembelajaran interaktif berbasis edukasi.
+            </p>
+
+            <p>
+                Repository:
+                <a href="https://github.com/ceceaj/Project-UAS-2B.git">
+                    Lihat di GitHub
+                </a>
+            </p>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <h3>Project 3: Website Matematika Diskrit</h3>
+
+            <img src="image/matdis.png" alt="Website Matematika Diskrit">
+
+            <p>
+                Website sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript
+                yang menampilkan proses Binary Tree Inorder Traversal secara otomatis.
+            </p>
+
+            <p>
+                Repository:
+                <a href="https://github.com/naylashoyibah/Pohon-Biner-Inorder.git">
+                    Lihat di GitHub
+                </a>
+            </p>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+            <h3>Project 4: Website Saung Hibar</h3>
+
+            <img src="image/web.png" alt="Website Saung Hibar">
+
+            <p>
+                Website pariwisata yang dikembangkan secara berkelompok untuk
+                memperkenalkan Saung Hibar sebagai salah satu destinasi wisata,
+                sekaligus memudahkan pengunjung dalam memperoleh informasi
+                dan melakukan proses booking secara online.
+            </p>
+
+            <p>
+                <a href="https://www.figma.com/proto/IfEY9ydbCMkF7gMdr9Qh6p/Untitled">
+                    Lihat di Figma
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- TEKNOLOGI -->
+    <div class="project-info">
+        <h2>Teknologi yang Digunakan</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>Godot</li>
+            <li>Figma</li>
+            <li>Canva</li>
+            <li>Github</li>
+        </ul>
+    </div>
+
+
+    <!-- RINGKASAN -->
+    <div class="project-info">
+        <h2>Ringkasan Project</h2>
+
+        <table>
+            <tr>
+                <td colspan="4">
+                    <strong>Ringkasan Portofolio Project</strong>
+                </td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">No.</th>
+                <th rowspan="2">Nama Project</th>
+                <th colspan="2">Detail Project</th>
+            </tr>
+
+            <tr>
+                <th>Teknologi</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Website Biodata</td>
+                <td>HTML</td>
+                <td>Dalam Pengembangan</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Game Mindventure (Rise of Reason)</td>
+                <td>Godot & Canva</td>
+                <td rowspan="3">Selesai</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Website Matematika Diskrit</td>
+                <td>HTML & Github</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Website Saung Hibar</td>
+                <td>Figma & Canva</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="project-bottom">
+    <a href="contact.html">Tertarik berdiskusi? Hubungi saya</a>
+    <p>©2026 Nayla Shoyibah.</p>
+</div>
 </html>

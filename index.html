@@ -2,43 +2,58 @@
 <html lang="id">
   <head>
     <title>Home</title>
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Isi halaman -->
-    <h1>Personal Website</h1>
-    <p>Selamat datang di website pribadi saya.</p>
+    <!-- <h1>Personal Website</h1> -->
+    <!-- <p>Selamat datang di website pribadi saya.</p> -->
+     <header>
+         <div class="logo">Personal Website ♡</div>
 
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">about</a> |
-      <a href="project.html">Project</a> |
-      <a href="contact.html">Contact</a>|
+  
+      <div class="link-navbar">
+      <a href="index.html">Home</a> 
+      <a href="about.html">about</a> 
+      <a href="project.html">Project</a> 
+      <a href="contact.html">Contact</a>
       <a href="katalog.html">Katalog</a>
+      </div>
     </nav>
-    <hr />
-    <h2>Halo, Saya Nayla Shoyibah</h2>
-    <img src="image/potonay.jpeg" alt="Foto profil mahasiswa" width="240" />
-    <p>
-      Saya adalah mahasiswa yang sedang belajar pengembangan web.
-      <br />Website ini dibuat sebagai latian menggunakan HTML dasar tanpa CSS.
-    </p>
+  </header>
 
-    <p>
-      Di Website ini anda dapat mengenal saya, melihat beberapa project, serta
-      menghubungi saya melalui halaman contact.
-    </p>
+     <section class="hero">
+        <div class="hero-text">
+            <h1 id="judul-profil">Halo, Saya Nayla Shoyibah</h1>
 
-    <h2>Yang Sedang Saya Pelajari</h2>
-    <ul>
-      <li>HTML</li>
-      <li>Pemrograman Internet</li>
-      <li>Jaringan Komputer</li>
-      <li>Perencanaan pembelajaran</li>
-    </ul>
-    <p>
-      Silahkan kunjungi halaman <a href="about.html">about</a> untuk mengetahui
-      profil saya lebih lengkap.
-    </p>
-    <hr />
-    ©2026 Nayla Shoyibah. Dibuat menggunakan HTML.
+            <p>
+                Saya adalah mahasiswa yang sedang belajar pengembangan web.
+                Website ini dibuat sebagai latihan menggunakan HTML dasar dan CSS.
+            </p>
+
+            <p>
+                Di website ini anda dapat mengenal saya, melihat beberapa
+                project, serta menghubungi saya melalui halaman contact.
+            </p>
+        </div>
+
+       <img class="foto-profil" src="./image/potonay.jpeg" alt="Foto Nayla">
+    </section>
+
+
+    <section class="skills">
+        <h2>Yang Sedang Saya Pelajari</h2>
+
+        <div class="skill-list">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">Pemrograman Internet</div>
+            <div class="skill-card">Jaringan Komputer</div>
+            <div class="skill-card">Perencanaan Pembelajaran</div>
+        </div>
+    </section>
+@Nayla Shoyibah. Dibuat menggunakan HTML.
   </body>
 </html>
+
+ 
